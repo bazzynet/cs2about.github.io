@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;  
+}
+
+header{
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.con{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.about, .featT{
+    background-color: rgb(143, 98, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.flex-cont{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.feats{
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 15px;
+    flex:1 1 300px;
+    transition: 0.5s;
+}
+
+.feats:hover{
+    transform: scale(1.05);
+}
+
+body{
+    background-image: url('https://tv-gubernia.ru/wp-content/uploads/2023/03/ks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.wow{
+    height: 30px;
+}
+
+.image{
+    
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    position: relative;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h2>
+            CS2
+        </h2>
+        <p>
+            CS2 - супер позитив gaymee
+        </p>
+    </header>
+    <div class="con">
+        <section class="about">
+            <h2>
+                Об игре
+            </h2>
+            <p>
+                Компьютерная игра в жанре многопользовательского тактического шутера от первого лица, разработанная компанией Valve.
+            </p>
+        </section>
+        <section class="featT">
+            <h2 class="wow">
+                особенности
+            </h2>
+        <div class="flex-cont">
+            <div class="feats">
+                <h3>
+                    Дымовые гранаты
+                </h3>
+                <p>
+                    Длительность дыма увеличили на 2 секунды, и теперь с ним можно взаимодействовать: выстрел сделает отверстие, а осколочная граната и вовсе ненадолго развеивает дым.
+                </p>
+                <img class="image" src="https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/smokes_vid1.jpg">
+
+            </div>
+            <div class="feats">
+                <h3>
+                    Удаление скайбоксов
+                </h3>
+                <p>
+                    Теперь гранаты можно кидать через всю карту, что позволит реализовать огромное количество новых раундов на каждой из карт.
+                </p>
+                <img class="image" src="https://i.mycdn.me/getVideoPreview?id=5043481545378&idx=11&type=39&tkn=smJ9PdceZ_jkyf4hScwGHfuxP0s&fn=vid_x">
+
+            </div>
+            <div class="feats">
+                <h3>
+                    Отказ от тикрейта
+                </h3>
+                <p>
+                    Однако в Counter-Strike 2 Valve не просто повысила показатели до 128, как ожидали многие. Вместо этого сервер будет моментально реагировать на все действия игрока благодаря новой системе, что сделает игру намного точнее и справедливее.
+                </p>
+                <img class="image" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcL-cyLLv0kAsPHGxeIZViuP3mlepxdLOgpvTwVTIY7r1YD8RdDMWo0JNyu7DlmyOHxZGqJfI9a_Up3B9dxp9ir2_MLfq4CNUxLkgEC6NMQJywMp5Go3OLcOY4oOTSRLjAomYRnp3OzkxpalLIcbwTJHeQ?key=h7iSeSk7aIhcBP-emHeK0A">
+
+            </div>
+            <div class="feats">
+                <h3>
+                    Передвижение персонажа
+                </h3>
+                <p>
+                    Теперь «дергать» оппонента не так просто: ему намного проще попасть в тайминг и ответить выстрелом. На первый взгляд кажется, что это заставит игроков действовать осторожнее, хотя как будет на деле — покажет только время.
+                </p>
+                <img class="image" src="https://blog.cs.trade/wp-content/uploads/2024/04/Picture1-1.jpg">
+
+
+            </div>
+            <div class="feats">
+                <h3>
+                    Обновление графики
+                </h3>
+                <p>
+                    В Counter-Strike любая информация имеет значение. Взрыв бомбы теперь выглядит более ярко, пятна крови точно совпадают с направлением выстрела — с помощью этого игроки в теории смогут определять, где находится соперник.
+                </p>
+                <img class="image" src="https://resizer.mail.ru/p/0470e460-8f95-54a0-8341-031e16c05ca7/AQAKs96ogtMD8xF446n4OuiFQO9d8Nn01OF_hhoMfUC3YnmBeyV2pNEtZEZtaKQ6pPdkgA93dnI1-YrfE7bBYwOPy8M.jpg">
+
+            </div>
+            <div class="feats">
+                <h3>
+                    Обновления звука
+                </h3>
+                <p>
+                    Звук в Counter-Strike 2 стал более четким и лучше передает окружение — значит, с хорошей гарнитурой и опытом игры геймер сможет распознать точное направление, откуда раздался выстрел.
+                </p>
+                <img class="image" src="https://cq.ru/img/t/e/2023/11/08/46031-960.jpg">
+
+            </div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
